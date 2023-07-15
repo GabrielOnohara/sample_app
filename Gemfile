@@ -11,6 +11,7 @@ gem 'turbolinks', '5.2.0'
 gem 'jbuilder', '2.9.1'
 gem 'bootsnap', '>= 1.4.5', require: false
 gem 'rexml', '~> 3.2', '>= 3.2.5'
+
 group :development, :test do
   gem 'sqlite3', '~> 1.4.1'
   gem 'byebug', '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
@@ -28,6 +29,9 @@ group :test do
   gem 'selenium-webdriver', '3.142.4'
   gem 'webdrivers', '4.1.2'
   gem 'minitest-reporters'
+  gem 'minitest'
+  gem 'guard'
+  gem 'guard-minitest'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
