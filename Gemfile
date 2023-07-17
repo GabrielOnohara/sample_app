@@ -11,6 +11,8 @@ gem 'turbolinks', '5.2.0'
 gem 'jbuilder', '2.9.1'
 gem 'bootsnap', '>= 1.4.5', require: false
 gem 'rexml', '~> 3.2', '>= 3.2.5'
+gem 'bootstrap', '~> 5.0.0'
+
 
 group :development, :test do
   gem 'sqlite3', '~> 1.4.1'
@@ -36,3 +38,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "cssbundling-rails", "~> 1.2"
